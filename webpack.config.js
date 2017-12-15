@@ -1,15 +1,25 @@
 const path = require('path');
 var webpack = require('webpack');
 
-
-
+// TODO:
+// JS sourcemap (dev - not prod)
+// Less sourcemap (dev - not prod)
+// prod - extract css as a file, and read this into html?
+//        i.e. https://github.com/webpack-contrib/less-loader
+//        i.e. https://github.com/webpack-contrib/extract-text-webpack-plugin
+//        i.e. https://webpack.js.org/plugins/html-webpack-plugin/
+// prod - minify
+// babel - don't add all polyfills etc (i.e. reduce size of bundle)
 
 // TODO:
-// babel - don't add all poplyfills etc
-// prod - extract css as a file, and read this into html (template)
-// prod - minify
 
+// TODO: investigate pie charts for:
+// https://github.com/hshoff/vx/
+// https://github.com/plouc/nivo
+// http://recharts.org/#/en-US/examples/TwoSimplePieChart
+// https://github.com/FormidableLabs/victory
 
+// TODO: redux examples???
 
 
 module.exports = {
